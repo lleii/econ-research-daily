@@ -1,0 +1,87 @@
+{
+  "updated": "2026-11-17T03:27:51.636183+08:00",
+  "total": 116,
+  "sources": [
+    {
+      "source": "人民日报",
+      "lists": 2,
+      "links": 131,
+      "checked": 75,
+      "dated": 75,
+      "body": 63,
+      "accepted": 20,
+      "other_origin": 0,
+      "warnings": [
+        "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/17/node_01.html"
+      ]
+    },
+    {
+      "source": "经济日报",
+      "lists": 2,
+      "links": 89,
+      "checked": 75,
+      "dated": 18,
+      "body": 17,
+      "accepted": 8,
+      "other_origin": 57,
+      "warnings": []
+    },
+    {
+      "source": "光明日报",
+      "lists": 2,
+      "links": 109,
+      "checked": 75,
+      "dated": 75,
+      "body": 75,
+      "accepted": 16,
+      "other_origin": 0,
+      "warnings": [
+        "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202611/17/node_01.html"
+      ]
+    },
+    {
+      "source": "求是",
+      "lists": 1,
+      "links": 91,
+      "checked": 75,
+      "dated": 37,
+      "body": 37,
+      "accepted": 9,
+      "other_origin": 38,
+      "warnings": []
+    },
+    {
+      "source": "国家发展改革委",
+      "lists": 1,
+      "links": 25,
+      "checked": 17,
+      "dated": 17,
+      "body": 17,
+      "accepted": 2,
+      "other_origin": 0,
+      "warnings": []
+    },
+    {
+      "source": "国家数据局",
+      "lists": 2,
+      "links": 30,
+      "checked": 2,
+      "dated": 2,
+      "body": 2,
+      "accepted": 0,
+      "other_origin": 0,
+      "warnings": []
+    },
+    {
+      "source": "工业和信息化部",
+      "lists": 1,
+      "links": 0,
+      "checked": 0,
+      "dated": 0,
+      "body": 0,
+      "accepted": 0,
+      "other_origin": 0,
+      "warnings": []
+    }
+  ]
+}
