@@ -1,0 +1,64 @@
+sources:
+  - name: 人民日报
+    url: https://paper.people.com.cn/rmrb/pc/layout/{date:%Y%m}/{date:%d}/node_01.html
+    domain: paper.people.com.cn
+    article: '/rmrb/(?:pc/)?content/.*content_[0-9]+\.html?'
+    edition: '/rmrb/(?:pc/)?layout/.*node_[0-9]+\.html?'
+    body: '#ozoom p, #articleContent p, #article p'
+  - name: 经济日报
+    url: https://www.ce.cn/cysc/tech/gd2012/
+    extra_urls: [https://www.ce.cn/xwzx/gnsz/gdxw/]
+    domain: ce.cn
+    article: '/(?:xwzx/gnsz/gdxw|cysc/newmain/yc/jsxw|newmain/yc/jsxw)/[0-9]+/t[0-9]+_[0-9]+\.shtml'
+    origin: 经济日报
+    body: '.trs_editor_view p, .content p'
+  - name: 光明日报
+    url: https://epaper.gmw.cn/gmrb/html/layout/{date:%Y%m}/{date:%d}/node_01.html
+    domain: epaper.gmw.cn
+    article: '/gmrb/html/content/.*content_[0-9]+\.html'
+    edition: '/gmrb/html/layout/.*node_[0-9]+\.html'
+    body: '#ozoom p, #articleContent p, #article p, .m-article-main p'
+  - name: 求是
+    url: https://www.qstheory.cn/
+    domain: qstheory.cn
+    article: '/20[0-9]{6}/[a-f0-9]+/c\.html'
+    origin: '求是'
+    body: '#detailContent p'
+    attribution: '.appellation'
+    type: 观点评论
+  - name: 国家发展改革委
+    url: https://www.ndrc.gov.cn/xxgk/jd/jd/
+    domain: ndrc.gov.cn
+    article: '/xxgk/jd/jd/.*t[0-9]+_[0-9]+\.html'
+    body: '.TRS_Editor p, .Custom_UnionStyle p, .article_content p, .article-con p'
+    type: 政策解读
+  - name: 国家数据局
+    url: https://www.nda.gov.cn/sjj/zwgk/zjjd/list/index_pc_1.html
+    extra_urls: [https://www.nda.gov.cn/sjj/zwgk/zcjd/list/index_pc_1.html]
+    domain: nda.gov.cn
+    show_attribution: true
+    article: '/sjj/zwgk/(?:zcjd|zjjd)/.*_(?:pc|mobile)\.html'
+    body: '.article > div, .article-content p, .TRS_Editor p, #zoom p'
+    type: 政策解读
+  - name: 工业和信息化部
+    url: https://www.miit.gov.cn/zwgk/zcjd/index.html
+    domain: miit.gov.cn
+    article: '/zwgk/zcjd/.*art_.*\.html'
+    body: '#con_con p, .TRS_Editor p, .article-content p'
+    type: 政策解读
+
+topics:
+  数字经济: [数字经济, 数智经济, 智能经济, 数字产业, 数字贸易]
+  数据要素: [数据要素, 数据产权, 数据交易, 数据流通, 公共数据, 数据资源, 高质量数据集, 数据集]
+  人工智能: [人工智能, 大模型, 具身智能, 智能体, 生成式人工智能]
+  智能技术: [机器人, AI技术, 机器人产业, 开源模型, 智能算法, 智能技术]
+  人工智能治理: [人工智能治理, AI治理]
+  智能经济: [智能经济, 人工智能产业]
+  数据治理: [数据治理, 数据安全, 数据合规, 数据产权登记]
+  新质生产力: [新质生产力]
+  企业创新: [企业创新, 技术创新, 科技创新, 研发投入, 成果转化, 专精特新]
+  数字化转型: [数字化转型, 智能化改造, 工业互联网, 智能制造, 数智化]
+  产业经济: [产业经济, 产业升级, 产业体系, 产业发展, 产业集群, 制造业]
+  供应链: [供应链, 产业链]
+  算力: [算力, 智算]
+  数字技术: [数字技术, 数据技术, 工业软件, 数字基础设施, 数字中国]

@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="数字经济、数据要素与产业发展的官方政策和观点文章。">
+  <title>经研观察</title>
+  <style>
+    :root { color-scheme: light; --ink: #192923; --green: #215546; --muted: #53635c; --line: #d2d9d0; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f7f7f0; color: var(--ink); font: 16px/1.7 system-ui, "Microsoft YaHei", sans-serif; }
+    header { background: #173c33; color: #fffdf4; border-bottom: 5px solid #b2bfa4; }
+    .wrap { width: min(100% - 2.5rem, 54rem); margin-inline: auto; }
+    header .wrap { padding-block: clamp(1.8rem, 5vw, 3.6rem); }
+    h1 { margin: 0; font: 700 clamp(2.5rem, 6vw, 4.1rem)/1.2 "Noto Serif SC", "Songti SC", SimSun, serif; letter-spacing: .08em; }
+    header p { margin: 1rem 0 .35rem; }
+    header small { color: #d0ded3; }
+    .filters { display: flex; gap: .5rem; flex-wrap: wrap; padding: 1.25rem 0; border-bottom: 1px solid var(--line); }
+    button { padding: .48rem .85rem; border: 1px solid #aab9af; border-radius: .3rem; background: transparent; color: var(--green); font: inherit; cursor: pointer; }
+    button[aria-pressed="true"] { background: var(--green); color: white; border-color: var(--green); }
+    :focus-visible { outline: 2px solid #a56317; outline-offset: 4px; }
+    article { padding: 1.4rem 0; border-bottom: 1px solid var(--line); }
+    .meta { color: var(--muted); font-size: .875rem; }
+    .meta span { margin-inline: .2rem; }
+    h2 { margin: .3rem 0; font-size: clamp(1.16rem, 3vw, 1.45rem); line-height: 1.45; }
+    a { color: var(--green); text-decoration-thickness: 1px; text-underline-offset: .18em; }
+    h2 a:not(:hover):not(:focus) { text-decoration: none; }
+    article p { margin: .55rem 0; }
+    .tags { padding: 0; margin: .6rem 0 0; list-style: none; display: flex; flex-wrap: wrap; gap: .4rem; }
+    .tags li { background: #e7ede3; color: #2e5243; border-radius: .25rem; padding: .06rem .5rem; font-size: .85rem; }
+    footer { padding: 1.5rem 0 2.5rem; color: var(--muted); font-size: .875rem; }
+    #empty { padding: 1rem 0; }
+    [hidden] { display: none !important; }
+  </style>
+</head>
+<body>
+  <header><div class="wrap">
+    <h1>经研观察</h1>
+    <p>数字经济、企业创新与产业政策</p>
+    <small>{{STATUS}}</small>
+  </div></header>
+  <main class="wrap">
+    <nav class="filters" aria-label="文章类别" hidden>
+      <button type="button" data-filter="全部" aria-pressed="true">全部</button>
+      <button type="button" data-filter="新闻动态" aria-pressed="false">新闻动态</button>
+      <button type="button" data-filter="观点评论" aria-pressed="false">观点评论</button>
+      <button type="button" data-filter="政策解读" aria-pressed="false">政策解读</button>
+    </nav>
+    <section aria-label="文章列表">
+      {{CARDS}}
+      <p id="empty" role="status">暂无符合条件的文章。</p>
+    </section>
+  </main>
+  <footer class="wrap">核心观点由程序从原文正文选取一句。点击标题阅读原文。</footer>
+  <script>
+    const filters = document.querySelector(".filters");
+    const buttons = [...filters.querySelectorAll("button")];
+    const articles = [...document.querySelectorAll("article[data-kind]")];
+    const empty = document.querySelector("#empty");
+    function show(kind) {
+      let count = 0;
+      for (const article of articles) {
+        article.hidden = kind !== "全部" && article.dataset.kind !== kind;
+        if (!article.hidden) count++;
+      }
+      for (const button of buttons) button.setAttribute("aria-pressed", String(button.dataset.filter === kind));
+      empty.hidden = count > 0;
+    }
+    for (const button of buttons) button.addEventListener("click", () => show(button.dataset.filter));
+    filters.hidden = false;
+    show("全部");
+  </script>
+</body>
+</html>

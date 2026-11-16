@@ -1,0 +1,61 @@
+name: 经研观察｜每日采集与发布
+
+on:
+  workflow_dispatch:
+  schedule:
+    # UTC 23:00 = 北京时间 07:00
+    - cron: '0 23 * * *'
+
+permissions: {}
+
+concurrency:
+  group: economic-digest
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: 采集文章并生成网站
+        run: python main.py
+      - name: 保存文章归档和采集状态
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/items.json data/last_run.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Update daily economic digest"
+            git push
+          fi
+      - name: 准备网站
+        run: |
+          mkdir public
+          cp index.html public/index.html
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
