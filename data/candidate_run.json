@@ -1,0 +1,83 @@
+{
+  "updated": "2026-11-17T22:26:27.320363+08:00",
+  "total": 104,
+  "sources": [
+    {
+      "source": "人民日报",
+      "lists": 3,
+      "links": 220,
+      "checked": 75,
+      "dated": 75,
+      "body": 70,
+      "accepted": 32,
+      "other_origin": 0,
+      "warnings": []
+    },
+    {
+      "source": "经济日报",
+      "lists": 2,
+      "links": 90,
+      "checked": 75,
+      "dated": 20,
+      "body": 20,
+      "accepted": 13,
+      "other_origin": 55,
+      "warnings": []
+    },
+    {
+      "source": "光明日报",
+      "lists": 3,
+      "links": 182,
+      "checked": 75,
+      "dated": 75,
+      "body": 75,
+      "accepted": 24,
+      "other_origin": 0,
+      "warnings": []
+    },
+    {
+      "source": "求是",
+      "lists": 1,
+      "links": 87,
+      "checked": 75,
+      "dated": 38,
+      "body": 38,
+      "accepted": 10,
+      "other_origin": 37,
+      "warnings": []
+    },
+    {
+      "source": "国家发展改革委",
+      "lists": 2,
+      "links": 56,
+      "checked": 46,
+      "dated": 46,
+      "body": 31,
+      "accepted": 10,
+      "other_origin": 0,
+      "warnings": []
+    },
+    {
+      "source": "国家数据局",
+      "lists": 3,
+      "links": 77,
+      "checked": 54,
+      "dated": 54,
+      "body": 48,
+      "accepted": 15,
+      "other_origin": 0,
+      "warnings": []
+    },
+    {
+      "source": "工业和信息化部",
+      "lists": 2,
+      "links": 0,
+      "checked": 0,
+      "dated": 0,
+      "body": 0,
+      "accepted": 0,
+      "other_origin": 0,
+      "warnings": []
+    }
+  ]
+}
