@@ -242,7 +242,7 @@ def render_brief(issue, style, *, snapshot=False):
             )
         content += section("reads", "今日精读", '<div class="stack">' + "".join(picks) + "</div>")
     content += section("questions", "值得继续关注的问题", blocks(issue["questions"]))
-    if snapshot or production:
+    if snapshot:
         content += render_selected(issue, "今日推送" if push and not production else "今日精选")
     rows = "".join(
         f'<li id="source-{item["id"]}">{original(item)}'
