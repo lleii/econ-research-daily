@@ -1,5 +1,830 @@
 [
   {
+    "title": "鹏城有约，宾至如归",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30454.html",
+    "tags": [
+      "人工智能",
+      "智能技术",
+      "数字技术"
+    ],
+    "type": "新闻动态",
+    "summary": "主办方将人工智能等数字技术有机融入接待服务、城市参访等各个环节，广泛运用智能导航、智能翻译、数字通关、智慧调度等技术，让会议服务保障更加精准高效。"
+  },
+  {
+    "title": "青少年用AI，如何用对用好？",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30448.html",
+    "tags": [
+      "人工智能",
+      "生成式人工智能"
+    ],
+    "type": "新闻动态",
+    "summary": "从今年6月开始，乔雪峰团队联合全国近40所学校尝试开展“行智开物·童眼看世界”生成式人工智能（AIGC）跨学科通识项目。"
+  },
+  {
+    "title": "避免科技“八股文”蔓延（纵横）",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191568.html",
+    "tags": [
+      "数据要素",
+      "人工智能",
+      "企业创新"
+    ],
+    "type": "观点评论",
+    "summary": "在论文生产的另一端，不少学术期刊负责人发现，随着公开数据集的增加，以及AI（人工智能）工具飞速进化，模板化论文的比例呈上升趋势。"
+  },
+  {
+    "title": "跨越山海 共赴繁荣（大使随笔·APEC中国年：开放 创新 合作）",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191533.html",
+    "tags": [
+      "数字经济",
+      "人工智能"
+    ],
+    "type": "新闻动态",
+    "summary": "中国电商平台深度赋能印尼本地数字经济生态，众多中企带着人才、技术、资金和互利共赢的愿景到印尼投资兴业。"
+  },
+  {
+    "title": "贵阳贵安：深入落实强化比较优势战略 奋力推动高质量发展",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191584.html",
+    "tags": [
+      "产业经济",
+      "算力",
+      "数字经济",
+      "数据要素"
+    ],
+    "type": "新闻动态",
+    "summary": "立足资源禀赋，贵阳贵安强化比较优势，加快构建以先进制造业为骨干的现代化产业体系，产业规模持续壮大、核心竞争力不断增强。"
+  },
+  {
+    "title": "贵州遵义 加快构建现代化产业体系 高质量发展迈出坚实步伐",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191592.html",
+    "tags": [
+      "产业经济",
+      "人工智能",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "近年来，遵义市集聚发展新兴产业，前瞻布局未来产业，瞄准低空经济、具身智能、生物制造等新兴产业，积极推动人工智能场景应用，推进全市200家企业完成数字化改造。"
+  },
+  {
+    "title": "豫章师范学院数字媒体与创意产业学院：党建铸魂强方向 数智赋能谱新篇",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30437.html",
+    "tags": [
+      "数字经济",
+      "产业经济",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取"
+  },
+  {
+    "title": "聚力开放创新 共筑繁荣未来",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30459.html",
+    "tags": [
+      "人工智能",
+      "智能技术",
+      "供应链",
+      "数字经济"
+    ],
+    "type": "新闻动态",
+    "summary": "在印度尼西亚，基于中国开源模型研发的一款语言大模型上线，让这个有着700多种语言的“万岛之国”能更顺畅地与世界交流。"
+  },
+  {
+    "title": "第十四届中部博览会将筹办10场产业对接活动",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191540.html",
+    "tags": [
+      "供应链",
+      "数字经济",
+      "数字化转型"
+    ],
+    "type": "新闻动态",
+    "summary": "博览会将充分展现中部地区产业创新活力，由中部六省联合设计打造综合展区，围绕先进制造、新型零售、文化和数字贸易等领域，展示创新技术和产品。"
+  },
+  {
+    "title": "看见中文的更多可能",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30462.html",
+    "tags": [
+      "人工智能",
+      "数字化转型"
+    ],
+    "type": "新闻动态",
+    "summary": "澳大利亚琴鸟教育中文学习测试中心主任王蓓介绍，借助人工智能大模型的“一键备课”功能，原本需要花费3到5个小时的工作可以在5到8分钟完成。"
+  },
+  {
+    "title": "生物经济50人论坛（三亚）暨海洋生物制造业创新中心成立大会举行",
+    "published": "2026-11-17",
+    "source": "经济日报",
+    "byline": "经济日报新闻客户端",
+    "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261117_3296887.shtml",
+    "tags": [
+      "产业经济",
+      "企业创新",
+      "人工智能",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "他同时提出，以国家需求牵引科研攻关、以工业能力建设贯通成果转化、以长期制度安排保障持续创新。"
+  },
+  {
+    "title": "深入学习贯彻党的二十届五中全会精神 奋力开创粤港澳大湾区高质量发展新局面",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191520.html",
+    "tags": [
+      "企业创新",
+      "产业经济"
+    ],
+    "type": "新闻动态",
+    "summary": "他希望中山市紧紧抓住机遇，坚持以改革创新为根本动力，健全区域合作机制，营造优良营商环境，下大气力推动科技创新和产业创新深度融合，不断迈出推动高质量发展新步伐。"
+  },
+  {
+    "title": "深入学习贯彻党的二十届五中全会精神 奋力开创粤港澳大湾区高质量发展新局面",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30419.html",
+    "tags": [
+      "企业创新",
+      "产业经济"
+    ],
+    "type": "新闻动态",
+    "summary": "他希望中山市紧紧抓住机遇，坚持以改革创新为根本动力，健全区域合作机制，营造优良营商环境，下大气力推动科技创新和产业创新深度融合，不断迈出推动高质量发展新步伐。"
+  },
+  {
+    "title": "汇聚亚太合力，携手命运与共",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191595.html",
+    "tags": [
+      "供应链",
+      "产业链"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取"
+  },
+  {
+    "title": "桂林理工大学环境科学与工程学院：以党建带团建 书写生态文明育人答卷",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30436.html",
+    "tags": [
+      "企业创新",
+      "技术创新"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取"
+  },
+  {
+    "title": "枣庄职业学院：课堂连着车间 专业对着产业",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30474.html",
+    "tags": [
+      "产业经济",
+      "供应链",
+      "企业创新",
+      "数字经济"
+    ],
+    "type": "新闻动态",
+    "summary": "学校专业开设紧跟枣庄“432”产业体系9大重点领域布局，推动教育链、人才链与产业链、创新链深度融合。"
+  },
+  {
+    "title": "李强出席第29次中国－东盟领导人会议",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30443.html",
+    "tags": [
+      "人工智能",
+      "数字经济"
+    ],
+    "type": "新闻动态",
+    "summary": "中方欢迎建立中国－东盟能源部长会议机制，愿同东盟办好明年人工智能合作年，开展“人工智能+”合作，打造区域经济高质量发展的强劲引擎。"
+  },
+  {
+    "title": "李强出席第29次中国—东盟领导人会议",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191524.html",
+    "tags": [
+      "人工智能",
+      "数字经济"
+    ],
+    "type": "新闻动态",
+    "summary": "中方欢迎建立中国—东盟能源部长会议机制，愿同东盟办好明年人工智能合作年，开展“人工智能+”合作，打造区域经济高质量发展的强劲引擎。"
+  },
+  {
+    "title": "李强出席第29次中国—东盟领导人会议",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191546.html",
+    "tags": [
+      "人工智能",
+      "数字经济"
+    ],
+    "type": "新闻动态",
+    "summary": "中方欢迎建立中国—东盟能源部长会议机制，愿同东盟办好明年人工智能合作年，开展“人工智能+”合作，打造区域经济高质量发展的强劲引擎。"
+  },
+  {
+    "title": "推动劳动教育提质增效（专题深思）",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191586.html",
+    "tags": [
+      "数字化转型",
+      "智能制造"
+    ],
+    "type": "观点评论",
+    "summary": "例如，可以开展智慧工厂、智能制造等体验项目，有针对性地提升项目设计、组织管理、安全保障能力水平。"
+  },
+  {
+    "title": "推动兴业、强县、富民一体发展",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30428.html",
+    "tags": [
+      "产业经济",
+      "人工智能",
+      "数字化转型",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "另一方面，做好对县域内最具特色的“土”资源的专业化、规模化、品牌化开发挖掘，制造和提供高品质的产品和服务，形成具有强大市场竞争优势的特色产业集群。"
+  },
+  {
+    "title": "总体平稳 向新向优",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30479.html",
+    "tags": [
+      "产业经济",
+      "供应链",
+      "智能技术",
+      "数字化转型"
+    ],
+    "type": "新闻动态",
+    "summary": "我国依托完整的产业体系优势，积极加大能源保供力度，保障产业链供应链稳定，有力促进生产的稳定增加。"
+  },
+  {
+    "title": "开放融通大道宽",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30424.html",
+    "tags": [
+      "数字经济",
+      "产业经济"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取"
+  },
+  {
+    "title": "工行重庆市分行 激发创新活力，服务西部金融中心建设",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191582.html",
+    "tags": [
+      "产业经济",
+      "企业创新",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "重庆是全国主要的摩托车生产和出口基地，工行重庆市分行的金融“燃料”正助力重庆汽摩产业集群向智能化、高端化加速前行。"
+  },
+  {
+    "title": "守护古村根脉 激活发展动能（文化中国行·走进传统村落）",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191588.html",
+    "tags": [
+      "人工智能",
+      "产业经济",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "立足全域统筹，黄南州持续串联多元非遗资源，因地制宜培育文创旅游、休闲度假等新业态，延伸产业链条。"
+  },
+  {
+    "title": "守住对真理的好奇（中国道路中国梦·每一个人都是主角）",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191564.html",
+    "tags": [
+      "人工智能",
+      "算力"
+    ],
+    "type": "观点评论",
+    "summary": "暂未提取"
+  },
+  {
+    "title": "守住“健康第一”的成长底线",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30449.html",
+    "tags": [
+      "智能技术",
+      "AI技术"
+    ],
+    "type": "新闻动态",
+    "summary": "家长要认识到，运动、劳动、三餐节律、户外行走、家庭交流，是AI技术无法替代的健康底盘。"
+  },
+  {
+    "title": "坚定信心 抢抓机遇 全力完成全年经济社会发展主要目标任务",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191541.html",
+    "tags": [
+      "企业创新",
+      "新质生产力"
+    ],
+    "type": "新闻动态",
+    "summary": "他强调，要坚持把创新作为引领发展的第一动力，加强原始创新和关键核心技术攻关，布局契合区域产业需求的创新平台，推动科技创新和产业创新深度融合。"
+  },
+  {
+    "title": "在第29次中国－东盟领导人会议上的讲话",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30444.html",
+    "tags": [
+      "人工智能",
+      "数字经济"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取"
+  },
+  {
+    "title": "在第29次中国—东盟领导人会议上的讲话",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191530.html",
+    "tags": [
+      "人工智能",
+      "数字经济"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取"
+  },
+  {
+    "title": "图片报道",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191545.html",
+    "tags": [
+      "智能技术",
+      "机器人产业"
+    ],
+    "type": "新闻动态",
+    "summary": "小朋友们近距离观摩机器人、机器狗展演，在互动体验中了解智能机器人在生产、生活中的应用，感受科技魅力，点亮科学梦想。"
+  },
+  {
+    "title": "因地制宜推进宜居宜业和美乡村建设（有的放矢）",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191587.html",
+    "tags": [
+      "供应链",
+      "产业经济"
+    ],
+    "type": "观点评论",
+    "summary": "发挥县域统筹作用，弥补单一村庄在资源和市场开拓能力上的不足，完善加工、流通、仓储、品牌和社会化服务，使村庄产业更好融入县域产业链供应链。"
+  },
+  {
+    "title": "同舟共济，开创亚太和世界更加美好未来",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30425.html",
+    "tags": [
+      "供应链",
+      "人工智能",
+      "数字经济",
+      "企业创新"
+    ],
+    "type": "新闻动态",
+    "summary": "一年前在韩国庆州，习近平主席着眼数字时代演进大势，明确提出“激活数据的基础资源作用和创新引擎作用，推进数据安全有序流动，加快数字经济高质量发展”等主张。"
+  },
+  {
+    "title": "发挥党校（行政学院）在党性教育中的重要作用（权威访谈·学习贯彻党的二十届五中全会精神）",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191527.html",
+    "tags": [
+      "企业创新",
+      "成果转化"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取"
+  },
+  {
+    "title": "发展的“坎”也是起跳的“板”（人民时评）",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191569.html",
+    "tags": [
+      "产业经济",
+      "智能技术",
+      "供应链",
+      "人工智能"
+    ],
+    "type": "观点评论",
+    "summary": "人形机器人是集成人工智能、高端制造、新材料等先进技术的新赛道，变速器则是长期制约我国汽车制造业发展的短板弱项。"
+  },
+  {
+    "title": "北京工业职业技术学院建筑与测绘工程学院：激活事业发展“红色引擎” 打造党建特色标杆院系",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30457.html",
+    "tags": [
+      "产业经济",
+      "产业发展"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取"
+  },
+  {
+    "title": "加力推动政策落地见效 努力实现“十五五”良好开局",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191542.html",
+    "tags": [
+      "产业经济",
+      "人工智能",
+      "新质生产力"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取"
+  },
+  {
+    "title": "分类推进研究型大学改革发展之路",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30413.html",
+    "tags": [
+      "企业创新",
+      "产业经济"
+    ],
+    "type": "新闻动态",
+    "summary": "研究型大学不仅要产出原创知识，更要把分散的研究成果转化为相互关联、可持续发展的学术积累，为自主知识体系建设提供稳定支撑。"
+  },
+  {
+    "title": "凝聚侨心侨力 展现更大作为（今日谈）",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191543.html",
+    "tags": [
+      "数字经济",
+      "企业创新"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取"
+  },
+  {
+    "title": "健全高校定制化培养机制 提升学生就业能力",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30452.html",
+    "tags": [
+      "人工智能",
+      "智能技术",
+      "新质生产力"
+    ],
+    "type": "新闻动态",
+    "summary": "2026年10月，中共中央、国务院印发《关于发展新质生产力的意见》明确提出，鼓励企业和高等学校联合定制化培养人才。"
+  },
+  {
+    "title": "健全机制，塑造区域发展胜势（今日谈）",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191544.html",
+    "tags": [
+      "数字经济",
+      "数字产业"
+    ],
+    "type": "新闻动态",
+    "summary": "上海的策源能力、江苏的精密制造、浙江的数字产业、安徽的原始创新，何以在长三角G60科创走廊形成深度耦合的创新动脉？"
+  },
+  {
+    "title": "以高质量自主培养筑牢基础研究人才根基",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30414.html",
+    "tags": [
+      "人工智能",
+      "企业创新"
+    ],
+    "type": "新闻动态",
+    "summary": "基础研究人员要严格遵守科研诚信与学术规范，规范数据采集、图像处理和人工智能工具使用，保留可核查的研究过程。"
+  },
+  {
+    "title": "以动能转换推动经济持续向好（快评）",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191539.html",
+    "tags": [
+      "企业创新",
+      "产业经济"
+    ],
+    "type": "新闻动态",
+    "summary": "10月份，高技术制造业增加值同比增长17.6%，快于全部规上工业增加值增速12.8个百分点。"
+  },
+  {
+    "title": "亚太人文交流活动在广东深圳举行",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30461.html",
+    "tags": [
+      "数字化转型",
+      "数智化"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取"
+  },
+  {
+    "title": "乡村经济的新答卷",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30430.html",
+    "tags": [
+      "产业经济",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "从天然制丝到化工纤维，再到光纤、通信和海底电缆，“一根丝”从衣被之物延伸为千亿级现代高端纺织产业链。"
+  },
+  {
+    "title": "习近平主席推动构建亚太共同体金句",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191548.html",
+    "tags": [
+      "供应链",
+      "人工智能"
+    ],
+    "type": "新闻动态",
+    "summary": "勇于“拆墙”，维护全球产业链供应链稳定畅通，推进区域经济一体化和亚太自由贸易区建设，为全球经济增长贡献亚太力量。"
+  },
+  {
+    "title": "乘大势 立潮头 共繁荣",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191526.html",
+    "tags": [
+      "人工智能",
+      "数字经济"
+    ],
+    "type": "新闻动态",
+    "summary": "去年APEC会议上，习近平主席再提人工智能，“深化技术开源开放合作，创建具有竞争力的开放创新生态”。"
+  },
+  {
+    "title": "为亚太合作行稳致远提供中国方案",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30455.html",
+    "tags": [
+      "供应链",
+      "数字化转型",
+      "人工智能",
+      "产业经济"
+    ],
+    "type": "新闻动态",
+    "summary": "新一轮科技革命和产业变革正在重塑全球产业分工，为亚太地区培育新兴产业、推动传统产业升级带来新机遇。"
+  },
+  {
+    "title": "为中部崛起注入新动能",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30480.html",
+    "tags": [
+      "数字化转型",
+      "供应链",
+      "数字经济"
+    ],
+    "type": "新闻动态",
+    "summary": "博览会着重突出“务实高效”，围绕着六省产业特点，建立重点客商清单，瞄准产业链关键环节，开展点对点、面对面精准对接。"
+  },
+  {
+    "title": "中国银行 以金融之力服务亚太命运共同体建设",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191563.html",
+    "tags": [
+      "供应链",
+      "产业链"
+    ],
+    "type": "新闻动态",
+    "summary": "从账户开立、跨境结算、资金管理到供应链融资，中国银行以全链条产品创新打通要素跨境流动堵点，助力企业畅行全球。"
+  },
+  {
+    "title": "中国移动河北公司：“AI+”服务产业集群 让地方企业拥有“产业大脑”",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30468.html",
+    "tags": [
+      "产业经济",
+      "数字化转型",
+      "数据要素",
+      "数据治理"
+    ],
+    "type": "新闻动态",
+    "summary": "今年1月，“景县橡塑产业集群数据集”获全国首批产业集群数据产权登记证书；4月，衡水银行据此发放全国首笔特色产业集群数据资产质押贷款100万元。"
+  },
+  {
+    "title": "“稳”的特质明显，“稳”的底气增强（权威发布）",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191538.html",
+    "tags": [
+      "产业经济",
+      "供应链",
+      "智能技术",
+      "数字化转型"
+    ],
+    "type": "新闻动态",
+    "summary": "10月份，数字产品制造业增加值同比增长18.4%，工业机器人、集成电路产量增速均在20%以上。"
+  },
+  {
+    "title": "“智能好物”热卖，消费解锁新空间（读数）",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191571.html",
+    "tags": [
+      "人工智能",
+      "智能技术",
+      "企业创新"
+    ],
+    "type": "新闻动态",
+    "summary": "商务部商务大数据显示，前三季度重点平台智能眼镜销售额增长1.1倍、外骨骼助力器销售额增长46.4%、具身智能机器人销售额增长22.6%。"
+  },
+  {
+    "title": "“携手推动亚太地区发展”（APEC中国年：开放 创新 合作）",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191534.html",
+    "tags": [
+      "人工智能",
+      "数字经济",
+      "数字化转型",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "在全球经济不确定性加剧的背景下，APEC作为亚太地区开展贸易与投资，以及创新与数字经济、包容性与可持续增长等合作的平台，一直发挥着关键作用。"
+  },
+  {
+    "title": "“一起把蛋糕做大、把链路做稳”（瞩望深圳APEC会议）",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191594.html",
+    "tags": [
+      "供应链",
+      "数字化转型",
+      "产业经济",
+      "人工智能"
+    ],
+    "type": "新闻动态",
+    "summary": "瓦思拓说，坚持开放合作、保持产供链稳定，对于推动技术创新、绿色转型和产业升级尤为重要。"
+  },
+  {
+    "title": "​向创新要活力，塑造亚太发展新动能（瞩望深圳APEC会议）",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191532.html",
+    "tags": [
+      "人工智能",
+      "数字经济",
+      "数字技术",
+      "人工智能治理"
+    ],
+    "type": "新闻动态",
+    "summary": "泰国总理阿努廷表示，泰方感谢中方推动人工智能治理领域国际合作，“人工智能的发展进程中不能让任何人掉队”。"
+  },
+  {
+    "title": "AI浪潮下，毕业生如何锻造就业竞争力",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30451.html",
+    "tags": [
+      "人工智能",
+      "数字化转型",
+      "智能技术",
+      "算力"
+    ],
+    "type": "新闻动态",
+    "summary": "随着人工智能深度赋能千行百业，不少高校毕业生主动“拥抱”AI，将专业所学同AI应用融合，探索解决行业重点难点问题。"
+  },
+  {
+    "title": "2026青年企业家创新发展大会聚焦新质生产力",
+    "published": "2026-11-17",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/17/content_30191575.html",
+    "tags": [
+      "新质生产力",
+      "人工智能",
+      "供应链",
+      "智能经济"
+    ],
+    "type": "新闻动态",
+    "summary": "会议以“聚势新质生产力 赋能青年企业家”为主题，推动创新资源与产业需求对接，引导青年企业家因地制宜发展新质生产力，在服务高质量发展中展现担当作为。"
+  },
+  {
+    "title": "2026第七届中国国际冶金材料交易博览会在河北唐山开幕",
+    "published": "2026-11-17",
+    "source": "经济日报",
+    "byline": "经济日报新闻客户端",
+    "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261117_3296883.shtml",
+    "tags": [
+      "数字化转型",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "本届大会紧扣钢铁、铸造、有色产业链转型方向，设置耐火原料、冶金炉料、耐材陶瓷制品、智能制造与综合服务四大主题展区。"
+  },
+  {
+    "title": "2026年APEC工商界活动形成14份成果文件",
+    "published": "2026-11-17",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/17/content_30460.html",
+    "tags": [
+      "数字经济",
+      "人工智能",
+      "企业创新",
+      "产业经济"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取"
+  },
+  {
     "title": "黄山旅游T1线一期工程建设提速",
     "published": "2026-11-16",
     "source": "经济日报",
@@ -620,6 +1445,21 @@
     ],
     "type": "新闻动态",
     "summary": "暂未提取"
+  },
+  {
+    "title": "关注人工智能 | 数智时代如何有效应对人口老龄化",
+    "published": "2026-11-16",
+    "source": "求是",
+    "byline": "《求是》2026/22",
+    "url": "https://www.qstheory.cn/20261114/b1833c97fc3349128fceb44350627655/c.html",
+    "tags": [
+      "人工智能",
+      "企业创新",
+      "数字化转型",
+      "产业经济"
+    ],
+    "type": "观点评论",
+    "summary": "当这两大时代趋势“迎头相遇”，推动老龄化与数智化实现融合互促，才能塑造出科技进步与人的发展同频共振、经济动能与社会福祉相互促进的社会新生态。"
   },
   {
     "title": "关注人工智能 | 人工智能时代，精神能力更加宝贵",

@@ -1,53 +1,49 @@
 {
-  "updated": "2026-11-17T03:27:51.636183+08:00",
-  "total": 116,
+  "updated": "2026-11-17T12:53:56.578283+08:00",
+  "total": 177,
   "sources": [
     {
       "source": "人民日报",
-      "lists": 2,
-      "links": 131,
+      "lists": 3,
+      "links": 220,
       "checked": 75,
       "dated": 75,
-      "body": 63,
-      "accepted": 20,
+      "body": 68,
+      "accepted": 32,
       "other_origin": 0,
-      "warnings": [
-        "404 Client Error: Not Found for url: https://paper.people.com.cn/rmrb/pc/layout/202611/17/node_01.html"
-      ]
+      "warnings": []
     },
     {
       "source": "经济日报",
       "lists": 2,
       "links": 89,
       "checked": 75,
-      "dated": 18,
-      "body": 17,
-      "accepted": 8,
-      "other_origin": 57,
+      "dated": 2,
+      "body": 2,
+      "accepted": 2,
+      "other_origin": 73,
       "warnings": []
     },
     {
       "source": "光明日报",
-      "lists": 2,
-      "links": 109,
+      "lists": 3,
+      "links": 182,
       "checked": 75,
       "dated": 75,
-      "body": 75,
-      "accepted": 16,
+      "body": 74,
+      "accepted": 27,
       "other_origin": 0,
-      "warnings": [
-        "404 Client Error: Not Found for url: https://epaper.gmw.cn/gmrb/html/layout/202611/17/node_01.html"
-      ]
+      "warnings": []
     },
     {
       "source": "求是",
       "lists": 1,
-      "links": 91,
-      "checked": 75,
-      "dated": 37,
-      "body": 37,
-      "accepted": 9,
-      "other_origin": 38,
+      "links": 90,
+      "checked": 73,
+      "dated": 36,
+      "body": 36,
+      "accepted": 3,
+      "other_origin": 37,
       "warnings": []
     },
     {
