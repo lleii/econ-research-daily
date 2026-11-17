@@ -1,24 +1,16 @@
-# 经研观察
+# 经济观察 · Economic Observatory
 
-每日采集七个指定来源中与数字经济、数据要素、人工智能、企业创新和产业政策相关的公开文章，生成可在手机上按类别浏览的静态网页。站点采用北京时间，文章按原文发布日期倒序排列。
+[正式网站](https://lleii.github.io/economic-observer/) · [源码仓库](https://github.com/lleii/economic-observer)
 
-## 本地运行
+以数字经济、数据要素、人工智能、技术进步、企业发展和新质生产力为主线，观察国家经济政策与产业变化。
 
-在项目根目录打开 PowerShell，使用 Python 3.12。
+## 采集与编辑
 
-```powershell
-python -m pip install -r requirements.txt
-python main.py
-```
+- GitHub Actions 按 UTC 23:00（北京时间次日 07:00）调度采集。候选材料及运行情况写入 `data/candidates.json` 与 `data/candidate_run.json`。
+- 编辑审阅最近 7–30 天材料，必要时引用更早的正式文件。依次判断主题相关性、政策和经济研究价值、信息增量与研究启发。重大正式政策走独立候选通道；80 分用于编辑参考。
+- 首页精读优先选正文有明确判断的理论文章及国家政策。正式文件、专家观点、报道与综合判断分别标示。地方材料只在有研究价值且有明确边界时用于精选或佐证。
+- 要核对原文、作者、发布日期、证据与结论。候选池由规则筛出，定时任务当前无需 AI API。完整日报由编辑审阅后发布，首页一直显示最新一期。
 
-打开 `index.html`。程序将文章写入 `data/items.json`，并将每个来源的列表数、文章链接数、已检查数、可识别日期数、可读取正文数、收录数和访问错误写入 `data/last_run.json`。每次运行保留已有归档，最多显示最近 1000 篇。每天扫描可见栏目和最近三个日报版面，在最近 45 天范围内纳入网页上日期可核实的条目。栏目和版面覆盖取决于来源实际公开页面，单源默认检查最多 75 篇候选。
+## 构建与归档
 
-核心观点采用可核对的正文句子摘录，长度为 40–80 字符。没有正文或找不到合适句子时显示“暂未提取”。关键词来自标题及正文中的主题词；缺少可核实日期或不足两个关键词时跳过。分类依据栏目和标题标识，采集结果可能随官方页面改版而变化。
-
-只检查来源、不写归档或页面的命令：
-
-```powershell
-python -X utf8 main.py --check --source 人民日报 --limit 12
-```
-
-部署步骤见 [DEPLOY_GUIDE.md](DEPLOY_GUIDE.md)。
+运行 `python brief-preview/build.py --issues editions --output public`，打开 `public/index.html`。Pages 工作流部署已审阅的日报与不可覆盖的日期快照。历史采集数据保存在 `data/items.json`。具体步骤见 [部署指南](DEPLOY_GUIDE.md)。

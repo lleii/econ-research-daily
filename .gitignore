@@ -2,3 +2,7 @@ __pycache__/
 .venv/
 .env
 *.pyc
+
+/public/
+/index.html
+/migration-backup-*/

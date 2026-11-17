@@ -28,22 +28,27 @@ sources:
     type: 观点评论
   - name: 国家发展改革委
     url: https://www.ndrc.gov.cn/xxgk/jd/jd/
+    extra_urls: [https://www.ndrc.gov.cn/xxgk/zcfb/tz/]
     domain: ndrc.gov.cn
-    article: '/xxgk/jd/jd/.*t[0-9]+_[0-9]+\.html'
+    article: '/xxgk/(?:jd/jd|zcfb/tz)/.*t[0-9]+_[0-9]+\.html'
+    policy_path: '/xxgk/zcfb/'
     body: '.TRS_Editor p, .Custom_UnionStyle p, .article_content p, .article-con p'
     type: 政策解读
   - name: 国家数据局
     url: https://www.nda.gov.cn/sjj/zwgk/zjjd/list/index_pc_1.html
-    extra_urls: [https://www.nda.gov.cn/sjj/zwgk/zcjd/list/index_pc_1.html]
+    extra_urls: [https://www.nda.gov.cn/sjj/zwgk/zcjd/list/index_pc_1.html, https://www.nda.gov.cn/sjj/zwgk/zcfb/list/index_pc_1.html]
     domain: nda.gov.cn
     show_attribution: true
-    article: '/sjj/zwgk/(?:zcjd|zjjd)/.*_(?:pc|mobile)\.html'
+    article: '/sjj/zwgk/(?:zcjd|zjjd|zcfb)/.*_(?:pc|mobile)\.html'
+    policy_path: '/zwgk/zcfb/'
     body: '.article > div, .article-content p, .TRS_Editor p, #zoom p'
     type: 政策解读
   - name: 工业和信息化部
     url: https://www.miit.gov.cn/zwgk/zcjd/index.html
+    extra_urls: [https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/index.html]
     domain: miit.gov.cn
-    article: '/zwgk/zcjd/.*art_.*\.html'
+    article: '/zwgk/(?:zcjd|zcwj/wjfb/tz)/.*art_.*\.html'
+    policy_path: '/zwgk/zcwj/wjfb/'
     body: '#con_con p, .TRS_Editor p, .article-content p'
     type: 政策解读
 

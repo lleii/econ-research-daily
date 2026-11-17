@@ -172,7 +172,13 @@ def discover(session, source, today, days, warnings):
     return entries, listing_count
 
 
-def collect(source, topics, today, days, existing, limit):
+OFFICIAL_TITLE = re.compile(r"关于.{2,}(的通知|的意见|的决定|的批复)|行动计划|实施方案")
+LOW_SIGNAL_TITLE = re.compile(r"青少年.*(?:AI|人工智能)|科技[“「]?八股文|"
+                               r"(?:大会|论坛|活动).*(?:开幕|举行|圆满落幕)|"
+                               r"(?:宣布|正式)?发布.{0,10}新品")
+
+
+def collect(source, topics, today, days, existing, limit, candidate_pool=False):
     status = {"source": source["name"], "lists": 0, "links": 0, "checked": 0,
               "dated": 0, "body": 0, "accepted": 0, "other_origin": 0, "warnings": []}
     warnings = status["warnings"]
@@ -185,8 +191,15 @@ def collect(source, topics, today, days, existing, limit):
         candidates = [(link, values) for link, values in entries.items()
                       if (not values[1] or cutoff <= values[1] <= today)
                       and not (link in existing and existing[link]["summary"] != MISSING)]
-        candidates.sort(key=lambda pair: (bool(keywords(pair[1][0], [], topics)),
-                                          pair[1][1] or today), reverse=True)
+        def priority(pair):
+            link, (title, stamp, section) = pair
+            formal = source.get("policy_path") and re.search(source["policy_path"], urlsplit(link).path)
+            commentary = category(title, section, source) == "观点评论"
+            return (bool(formal) if candidate_pool else False,
+                    bool(keywords(title, [], topics)),
+                    commentary if candidate_pool else False, stamp or today)
+
+        candidates.sort(key=priority, reverse=True)
         for link, (title, listed, section) in candidates[:limit]:
             status["checked"] += 1
             paragraphs = []
@@ -230,11 +243,22 @@ def collect(source, topics, today, days, existing, limit):
             if not cutoff <= stamp <= today:
                 continue
             tags = keywords(title, paragraphs, topics)
-            if len(tags) < 2:
+            formal = bool(source.get("policy_path") and
+                          re.search(source["policy_path"], urlsplit(link).path) and
+                          OFFICIAL_TITLE.search(title))
+            if len(tags) < 2 and not (candidate_pool and formal):
+                continue
+            if candidate_pool and not formal and LOW_SIGNAL_TITLE.search(title):
                 continue
             items.append(dict(title=title, published=stamp.isoformat(), source=source["name"], byline=byline,
                               url=link, tags=tags, type=category(title, section, source),
                               summary=core_view(title, paragraphs, tags, topics)))
+            if candidate_pool:
+                items[-1].update(
+                    candidate_channel="政策文件待核" if formal else "常规待评",
+                    evidence_status="正文已提取" if paragraphs else "正文待核",
+                    editorial_status="待复核",
+                )
     status["accepted"] = len(items)
     return items, status
 
@@ -277,13 +301,14 @@ def main():
     parser.add_argument("--limit", type=int, default=75, help="每个来源的文章请求上限")
     parser.add_argument("--source", action="append", help="仅检查指定来源，可重复传入")
     parser.add_argument("--check", action="store_true", help="打印诊断，不写入归档")
+    parser.add_argument("--candidate-pool", action="store_true", help="更新独立候选池，无网页输出")
     args = parser.parse_args()
     config = yaml.safe_load((ROOT / "sources.yaml").read_text(encoding="utf-8-sig"))
     selected = [s for s in config["sources"] if not args.source or s["name"] in args.source]
     if not selected or args.days < 0 or args.limit < 1:
         parser.error("请检查来源名称、天数和请求上限")
     now = datetime.now(SHANGHAI)
-    archive = DATA / "items.json"
+    archive = DATA / ("candidates.json" if args.candidate_pool else "items.json")
     existing = {}
     if archive.exists() and not args.check:
         for item in json.loads(archive.read_text(encoding="utf-8-sig")):
@@ -294,7 +319,7 @@ def main():
     statuses = []
     with ThreadPoolExecutor(max_workers=7) as executor:
         futures = [executor.submit(collect, s, config["topics"], now.date(), args.days,
-                                   existing, args.limit) for s in selected]
+                                   existing, args.limit, args.candidate_pool) for s in selected]
         results = [future.result() for future in futures]
     for items, status in results:
         existing.update((item["url"], item) for item in items)
@@ -306,11 +331,13 @@ def main():
     if not args.check:
         items = sorted(existing.values(), key=lambda x: (x["published"], x["title"]), reverse=True)[:1000]
         write_file(archive, json.dumps(items, ensure_ascii=False, indent=2) + "\n")
-        write_file(DATA / "last_run.json", json.dumps(
+        status_path = DATA / ("candidate_run.json" if args.candidate_pool else "last_run.json")
+        write_file(status_path, json.dumps(
             {"updated": now.isoformat(), "total": len(items), "sources": statuses},
             ensure_ascii=False, indent=2,
         ) + "\n")
-        render(items, statuses, now)
+        if not args.candidate_pool:
+            render(items, statuses, now)
 
 
 if __name__ == "__main__":

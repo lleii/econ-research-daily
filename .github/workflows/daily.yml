@@ -1,22 +1,33 @@
-name: 经研观察｜每日采集与发布
+name: 经济观察｜采集与发布
 
 on:
   workflow_dispatch:
+    inputs:
+      collect:
+        description: 同时运行候选采集
+        type: boolean
+        default: false
   schedule:
-    # UTC 23:00 = 北京时间 07:00
+    # UTC 23:00 = 北京时间次日 07:00
     - cron: '0 23 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'editions/**'
+      - 'site-archive/**'
+      - 'brief-preview/build.py'
+      - 'brief-preview/theme.css'
+      - '.github/workflows/daily.yml'
 
 permissions: {}
 
-concurrency:
-  group: economic-digest
-  cancel-in-progress: false
-
 jobs:
-  build:
-    if: github.ref_name == github.event.repository.default_branch
+  collect:
+    if: github.ref_name == github.event.repository.default_branch && (github.event_name == 'schedule' || inputs.collect == true)
     runs-on: ubuntu-latest
     timeout-minutes: 25
+    concurrency:
+      group: economic-observer-collector
     permissions:
       contents: write
     steps:
@@ -28,27 +39,43 @@ jobs:
           python-version: '3.12'
           cache: pip
       - run: pip install -r requirements.txt
-      - name: 采集文章并生成网站
-        run: python main.py
-      - name: 保存文章归档和采集状态
+      - name: 更新待审候选材料
+        run: python main.py --candidate-pool --days 30
+      - name: 保存候选池与采集状态
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add data/items.json data/last_run.json
+          git add data/candidates.json data/candidate_run.json
           if ! git diff --cached --quiet; then
-            git commit -m "Update daily economic digest"
+            git commit -m "Update economic observatory candidates"
+            git pull --rebase
             git push
           fi
-      - name: 准备网站
+  build:
+    if: github.ref_name == github.event.repository.default_branch && github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 构建已审核日报及历史归档
         run: |
-          mkdir public
-          cp index.html public/index.html
-      - uses: actions/upload-pages-artifact@v3
+          mkdir -p public
+          cp site-archive/*.html public/
+          python brief-preview/build.py --issues editions --output public
+      - uses: actions/upload-pages-artifact@v4
         with:
           path: public
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    concurrency:
+      group: economic-observer-pages
     permissions:
       pages: write
       id-token: write
