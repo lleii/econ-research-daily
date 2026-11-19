@@ -52,6 +52,17 @@ sources:
     body: '#con_con p, .TRS_Editor p, .article-content p'
     type: 政策解读
 
+  - name: 南风窗
+    url: https://www.nfcmag.cn/category/2.html
+    extra_urls: [https://www.nfcmag.cn/category/39.html, https://www.nfcmag.cn/category/37.html]
+    domain: nfcmag.cn
+    article: '/article/[0-9]+\.html'
+    headline: '.article-content-box h3.subject'
+    date_selector: '.article-content-box .info'
+    body: '.article-content-box > .content'
+    candidate_only: true
+    editorial_role: 媒体深度报道与观点，逐篇复核
+
 topics:
   数字经济: [数字经济, 数智经济, 智能经济, 数字产业, 数字贸易]
   数据要素: [数据要素, 数据产权, 数据交易, 数据流通, 公共数据, 数据资源, 高质量数据集, 数据集]

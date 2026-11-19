@@ -68,7 +68,10 @@ def links(soup, base, source, pattern):
             yield link, anchor
 
 
-def published(soup, link, edition, listed):
+def published(soup, link, edition, listed, selector=None):
+    if selector:
+        node = soup.select_one(selector)
+        return parse_date(DATE, node.get_text(" ", strip=True)) if node else None
     if edition:
         return parse_date(EDITION_DATE, link)
     for node in soup.select(DATE_META + ', time[datetime], .pubtime, .pubTime, .article-time, '
@@ -222,11 +225,11 @@ def collect(source, topics, today, days, existing, limit, candidate_pool=False):
                     byline = actual
                 elif actual and source.get("show_attribution") and actual != byline:
                     byline += "（原载" + actual + "）"
-                headline = soup.select_one('meta[name="ArticleTitle"], meta[name="articletitle"], '
-                                           'meta[property="og:title"], h1, #title, .article h2, .m-article-main h2')
+                headline = soup.select_one(source.get("headline", 'meta[name="ArticleTitle"], meta[name="articletitle"], '
+                                           'meta[property="og:title"], h1, #title, .article h2, .m-article-main h2'))
                 if headline:
                     title = clean(headline.get("content") or headline.get_text(" ", strip=True)) or title
-                stamp = published(soup, final_url, source.get("edition"), listed) or listed
+                stamp = published(soup, final_url, source.get("edition"), listed, source.get("date_selector")) or listed
                 paragraphs = list(dict.fromkeys(
                     clean(p.get_text(" ", strip=True))
                     for p in soup.select(source["body"])
@@ -259,6 +262,8 @@ def collect(source, topics, today, days, existing, limit, candidate_pool=False):
                     evidence_status="正文已提取" if paragraphs else "正文待核",
                     editorial_status="待复核",
                 )
+                if source.get("editorial_role"):
+                    items[-1]["source_role"] = source["editorial_role"]
     status["accepted"] = len(items)
     return items, status
 
@@ -304,7 +309,9 @@ def main():
     parser.add_argument("--candidate-pool", action="store_true", help="更新独立候选池，无网页输出")
     args = parser.parse_args()
     config = yaml.safe_load((ROOT / "sources.yaml").read_text(encoding="utf-8-sig"))
-    selected = [s for s in config["sources"] if not args.source or s["name"] in args.source]
+    selected = [s for s in config["sources"]
+                if (not args.source or s["name"] in args.source)
+                and (args.candidate_pool or not s.get("candidate_only"))]
     if not selected or args.days < 0 or args.limit < 1:
         parser.error("请检查来源名称、天数和请求上限")
     now = datetime.now(SHANGHAI)
