@@ -1,5 +1,992 @@
 [
   {
+    "title": "青海积极推动“青海家宴”融合创新",
+    "published": "2026-11-20",
+    "source": "经济日报",
+    "byline": "经济日报新闻客户端",
+    "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261120_3300646.shtml",
+    "tags": [
+      "供应链",
+      "产业链"
+    ],
+    "type": "新闻动态",
+    "summary": "此次倡议的提出，将推动“青海家宴”全产业链高质量发展，让高原味道在交流互鉴中不断焕发光彩。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "轻工业需要强标准（经济时评）",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192241.html",
+    "tags": [
+      "供应链",
+      "产业经济"
+    ],
+    "type": "观点评论",
+    "summary": "我国拥有全球最完备的轻工产业体系和超大规模市场，丰富的应用场景为标准的验证、迭代和推广提供了天然土壤。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "贵州举办矿业科技博览会",
+    "published": "2026-11-20",
+    "source": "经济日报",
+    "byline": "经济日报新闻客户端",
+    "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261120_3300647.shtml",
+    "tags": [
+      "企业创新",
+      "产业经济",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "由贵州省自然资源厅指导、贵州省矿业联合会主办的2026西南采矿业科技创新大会暨贵州矿业科技博览会（以下简称“矿博会”）11月18日在贵阳开幕。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "贴钱卖灯的深层逻辑（纵横）",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192229.html",
+    "tags": [
+      "供应链",
+      "产业链"
+    ],
+    "type": "观点评论",
+    "summary": "中国以完整、富有弹性、可预期的供应链，为全球不同发展水平的市场提供了丰俭由人的多样选择。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "让亚太合作像大鹏一样展翅高飞、鹏程万里",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192212.html",
+    "tags": [
+      "供应链",
+      "人工智能",
+      "企业创新",
+      "产业经济"
+    ],
+    "type": "新闻动态",
+    "summary": "联想集团高级副总裁乔健表示，习近平主席强调打造创新支柱，更加坚定了亚太企业以科技创新推动共同发展的信心。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "让亚太合作像大鹏一样展翅高飞、鹏程万里",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192234.html",
+    "tags": [
+      "供应链",
+      "人工智能",
+      "企业创新",
+      "产业经济"
+    ],
+    "type": "新闻动态",
+    "summary": "联想集团高级副总裁乔健表示，习近平主席强调打造创新支柱，更加坚定了亚太企业以科技创新推动共同发展的信心。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "让乡村更具被选择的价值（现场评论）",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192230.html",
+    "tags": [
+      "产业经济",
+      "供应链"
+    ],
+    "type": "观点评论",
+    "summary": "有机小麦全产业链的构建，催生了加工、销售、餐饮、文旅、电商等业态，每一个环节都创造出具体的岗位需求。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "认真贯彻落实党的二十届五中全会精神 以高质量党建引领人大工作高质量发展",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192221.html",
+    "tags": [
+      "企业创新",
+      "产业经济"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "笺谱艺术：独步世界的中国雕版彩印之光",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30739.html",
+    "tags": [
+      "产业经济",
+      "产业发展"
+    ],
+    "type": "新闻动态",
+    "summary": "我们看到，以四大笺谱为代表的笺纸类出版物层出不穷，成为书籍艺术化消费和收藏的标志之一；在新一轮文化创意产业发展潮流中，笺纸艺术也成为文创的新宠。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "第七届长三角文博会举行",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30757.html",
+    "tags": [
+      "智能技术",
+      "机器人"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "福建师范大学美术学院携手福建网龙网络公司：以“大千大模型”建设探索新文科融合创新",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30787.html",
+    "tags": [
+      "人工智能",
+      "数据要素"
+    ],
+    "type": "观点评论",
+    "summary": "福建师范大学美术学院协同福建网龙计算机网络信息技术有限公司，围绕新文科研究中的跨语种阅读、向量分析、印证锚点与论文撰写等需求，建设“大千新文科大模型”。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "王毅介绍亚太经合组织第三十三次领导人非正式会议及相关活动成果",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192210.html",
+    "tags": [
+      "人工智能",
+      "数字经济",
+      "数字技术",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "在创新领域，数字和人工智能部长会发表《成都声明》，提出以数字经济和人工智能赋能亚太共同体建设。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "王毅介绍亚太经合组织第三十三次领导人非正式会议及相关活动成果",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192214.html",
+    "tags": [
+      "人工智能",
+      "数字经济",
+      "数字技术",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "在创新领域，数字和人工智能部长会发表《成都声明》，提出以数字经济和人工智能赋能亚太共同体建设。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "王毅介绍亚太经合组织第三十三次领导人非正式会议及相关活动成果",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30799.html",
+    "tags": [
+      "人工智能",
+      "数字经济",
+      "数字技术",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "在创新领域，数字和人工智能部长会发表《成都声明》，提出以数字经济和人工智能赋能亚太共同体建设。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "深刻把握“坚持服务使命任务”的原则",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30778.html",
+    "tags": [
+      "企业创新",
+      "成果转化"
+    ],
+    "type": "新闻动态",
+    "summary": "强化理论武装，既要学深悟透党的创新理论，也要联系新的历史任务研究实际问题，促进学习成果转化为把握大局、破解难题、推动发展的能力。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "河北启动“数字金融赋能产业发展”试点",
+    "published": "2026-11-20",
+    "source": "经济日报",
+    "byline": "经济日报新闻客户端",
+    "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261120_3300649.shtml",
+    "tags": [
+      "产业经济",
+      "数据要素",
+      "企业创新",
+      "算力"
+    ],
+    "type": "新闻动态",
+    "summary": "位于石家庄高新区的河北圣昊光电股份有限公司是国家级高新技术企业、国家级专精特新“小巨人”企业，伴随产能扩张、产业园建设、大规模订单承接，需要大量资金支撑。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "智能潮起 亚太同行",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30743.html",
+    "tags": [
+      "人工智能",
+      "智能技术",
+      "数字经济",
+      "智能经济"
+    ],
+    "type": "新闻动态",
+    "summary": "倡议提出，深化“人工智能+”合作，支持面向发展中经济体和中小微企业数智能力建设，以人工智能促进经济发展、改善社会治理和增进民生福祉。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "新时代重大文化课题的创造性回答",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30807.html",
+    "tags": [
+      "人工智能",
+      "智能技术"
+    ],
+    "type": "观点评论",
+    "summary": "暂未提取",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "携手并进 促进亚太共同繁荣",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30761.html",
+    "tags": [
+      "供应链",
+      "产业经济",
+      "智能技术",
+      "人工智能"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "携手前行 共赢未来",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30792.html",
+    "tags": [
+      "智能技术",
+      "供应链",
+      "产业经济",
+      "人工智能"
+    ],
+    "type": "新闻动态",
+    "summary": "“十五五”规划纲要提出，“促进贸易投资一体化，引导产业链供应链合理有序跨境布局”。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "推动绿色算力产业高质量发展（专题深思）",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192251.html",
+    "tags": [
+      "算力",
+      "人工智能",
+      "产业经济",
+      "数字经济"
+    ],
+    "type": "观点评论",
+    "summary": "推动绿色算力技术创新，加强产学研深度融合，围绕人工智能芯片、大模型基础架构、算法框架等关键环节开展协同攻关。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "推动亚太合作迈出新步伐、开创新局面",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30760.html",
+    "tags": [
+      "数字经济",
+      "人工智能",
+      "数字技术",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "亚太经济亟需培育新的增长动能，而人工智能、绿色能源、生物技术和数字经济等新兴领域为区域经济发展提供了新的可能。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "抓好AI应用中试基地建设",
+    "published": "2026-11-20",
+    "source": "经济日报",
+    "byline": "经济日报",
+    "url": "http://www.ce.cn/cysc/newmain/yc/jsxw/202611/t20261120_3300274.shtml",
+    "tags": [
+      "人工智能",
+      "供应链",
+      "新质生产力",
+      "企业创新"
+    ],
+    "type": "新闻动态",
+    "summary": "中共中央、国务院印发的《关于发展新质生产力的意见》明确提出，“因地制宜、分业施策布局国家人工智能行业应用中试基地和高价值应用场景”。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "我国已建成工业5G专网2.7万个",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30749.html",
+    "tags": [
+      "数字化转型",
+      "数字经济",
+      "智能经济"
+    ],
+    "type": "新闻动态",
+    "summary": "本报武汉11月19日电（记者刘坤） 2026中国5G+工业互联网大会19日在湖北省武汉市开幕。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "强化对党忠诚教育（学习贯彻党的二十届五中全会精神）",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192232.html",
+    "tags": [
+      "企业创新",
+      "成果转化"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "建设亚太共同体，续写“亚太奇迹”新篇章",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192206.html",
+    "tags": [
+      "人工智能",
+      "企业创新",
+      "供应链",
+      "数字技术"
+    ],
+    "type": "新闻动态",
+    "summary": "增强“软联通”，促进政策和监管协调，深化跨境支付合作，维护产业链供应链稳定畅通。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "建设亚太共同体，续写“亚太奇迹”新篇章",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30795.html",
+    "tags": [
+      "人工智能",
+      "企业创新",
+      "供应链",
+      "数字技术"
+    ],
+    "type": "新闻动态",
+    "summary": "增强“软联通”，促进政策和监管协调，深化跨境支付合作，维护产业链供应链稳定畅通。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "广西科技大学机械与汽车工程学院：党旗领航聚合力 智造报国谱新篇",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30758.html",
+    "tags": [
+      "数字化转型",
+      "企业创新"
+    ],
+    "type": "新闻动态",
+    "summary": "学院智能制造科研团队党支部将科研训练、学科竞赛与党员培养相结合，引导研究生党员在课题研究中锤炼创新能力。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "广东：携手亚太，点亮“新”光",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192252.html",
+    "tags": [
+      "智能技术",
+      "供应链",
+      "人工智能",
+      "企业创新"
+    ],
+    "type": "新闻动态",
+    "summary": "在河套深港科技创新合作区，科研人员通行效率较传统口岸提升近50%；香港城市大学物质科学研究院（福田）等7家机构的71台仪器纳入深圳共享平台，两地实验室可以共用。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "太原理工大学机械工程学院机电系：激活党建红色引擎 书写高质量发展篇章",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30759.html",
+    "tags": [
+      "企业创新",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "太原理工大学机械工程学院机电系将持续激活“红色引擎”，深耕技术攻关、成果转化及高层次人才培养，为加快建设制造强国、推动高端装备自主可控注入红色动能。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "图片报道",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192228.html",
+    "tags": [
+      "数据要素",
+      "人工智能",
+      "算力"
+    ],
+    "type": "观点评论",
+    "summary": "近年来我国人工智能发展速度、应用规模稳居全球第一梯队，数据要素价值不断释放，为经济社会发展注入新动能。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "加快数智转型 第四届中国期刊高质量发展论坛在西安举办",
+    "published": "2026-11-20",
+    "source": "经济日报",
+    "byline": "经济日报新闻客户端",
+    "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261120_3300645.shtml",
+    "tags": [
+      "人工智能",
+      "企业创新"
+    ],
+    "type": "新闻动态",
+    "summary": "加快数智转型，以互联网思维配置资源，以人工智能提升质效，以数智技术创新业态，进一步激发期刊发展活力。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "前10个月消费市场规模稳步扩大",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30748.html",
+    "tags": [
+      "人工智能",
+      "智能技术"
+    ],
+    "type": "新闻动态",
+    "summary": "商务部商务大数据显示，重点平台智能眼镜销售额增长1倍，外骨骼助力器销售额增长44.4%，具身智能机器人销售额增长25.2%。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "共同将建设亚太共同体的愿景变为现实（和音）",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192253.html",
+    "tags": [
+      "数字经济",
+      "人工智能",
+      "企业创新"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "从鹏城再出发，亚太合作展翅高飞",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30741.html",
+    "tags": [
+      "数字经济",
+      "数据要素",
+      "人工智能",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "依托APEC机制，中国企业可在人工智能等领域深化跨境协同研发，把国内智能风控、数据要素市场化等成熟实践，与亚太多元产业场景对接，提升区域供应链效能。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "从深圳起笔，携手续写新的“亚太奇迹”",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30762.html",
+    "tags": [
+      "人工智能",
+      "智能技术",
+      "企业创新",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "我们将传承特区精神，以建设广东省人工智能与机器人应用改革创新实验区为牵引，让有想法的年轻人轻装上阵，让有技术的人放手创造，把深圳‘创新之城’的名片擦得更亮。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "今年以来我国消费市场规模稳步扩大",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192235.html",
+    "tags": [
+      "人工智能",
+      "智能技术"
+    ],
+    "type": "新闻动态",
+    "summary": "商务部商务大数据显示，智能眼镜、外骨骼助力器、具身智能机器人等智能新品销售额高速增长，为消费转型升级打开新空间。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "人生不止一种抵达（金台随笔）",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192227.html",
+    "tags": [
+      "人工智能",
+      "生成式人工智能"
+    ],
+    "type": "观点评论",
+    "summary": "暂未提取",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "人工智能加速资管业深度变革",
+    "published": "2026-11-20",
+    "source": "经济日报",
+    "byline": "经济日报",
+    "url": "http://www.ce.cn/cysc/newmain/yc/jsxw/202611/t20261120_3300284.shtml",
+    "tags": [
+      "人工智能",
+      "智能技术",
+      "数据要素",
+      "数据治理"
+    ],
+    "type": "新闻动态",
+    "summary": "王希提到，一项外资银行调查显示，大部分企业家与高净值客户对AI辅助投资的信任度较高，但他们要的不是机器人，而是能解读市场、缓解忧虑的陪伴者。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "产销、改装、回收，汽车消费全链条发力（中国消费向新而行·扩大汽车消费）",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192239.html",
+    "tags": [
+      "数字化转型",
+      "供应链",
+      "企业创新",
+      "产业经济"
+    ],
+    "type": "新闻动态",
+    "summary": "希望抢抓自贸港封关窗口期布局出海业务，重点打造新能源专用车出口组装基地，聚焦海外定制车型改装、整车智能制造、跨境出口贸易。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "互联互通 共赴繁荣",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30742.html",
+    "tags": [
+      "人工智能",
+      "产业经济",
+      "供应链",
+      "数字技术"
+    ],
+    "type": "新闻动态",
+    "summary": "智利工业促进协会主席罗萨里奥・纳瓦罗表示，相信亚太自贸区建设将进一步促进贸易往来和人员流动，帮助智利企业更好融入全球供应链和价值链，并为各方带来更多新机遇。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192202.html",
+    "tags": [
+      "人工智能",
+      "数字技术",
+      "数字经济",
+      "数据治理"
+    ],
+    "type": "新闻动态",
+    "summary": "要加强数字基础设施建设，完善区域数据治理和协同合作，实现高效、便捷、安全的跨境数据流动。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "习近平主持亚太经合组织第三十三次领导人非正式会议并发表重要讲话",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30780.html",
+    "tags": [
+      "人工智能",
+      "数字技术",
+      "数字经济",
+      "数据治理"
+    ],
+    "type": "新闻动态",
+    "summary": "要加强数字基础设施建设，完善区域数据治理和协同合作，实现高效、便捷、安全的跨境数据流动。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "习近平主持中俄美元首会晤",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192203.html",
+    "tags": [
+      "供应链",
+      "人工智能",
+      "人工智能治理"
+    ],
+    "type": "新闻动态",
+    "summary": "全球能源安全面临严峻挑战，三国可以加强沟通和协调，共同维护能源产业链供应链稳定畅通，维护全球能源市场安全稳定。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "习近平主持中俄美元首会晤",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192213.html",
+    "tags": [
+      "供应链",
+      "人工智能",
+      "人工智能治理"
+    ],
+    "type": "新闻动态",
+    "summary": "全球能源安全面临严峻挑战，三国可以加强沟通和协调，共同维护能源产业链供应链稳定畅通，维护全球能源市场安全稳定。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "习近平主持中俄美元首会晤",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30782.html",
+    "tags": [
+      "供应链",
+      "人工智能",
+      "人工智能治理"
+    ],
+    "type": "新闻动态",
+    "summary": "全球能源安全面临严峻挑战，三国可以加强沟通和协调，共同维护能源产业链供应链稳定畅通，维护全球能源市场安全稳定。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "之江潮涌 改革向新",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30746.html",
+    "tags": [
+      "供应链",
+      "产业链"
+    ],
+    "type": "新闻动态",
+    "summary": "依托金义综合保税区运营的浙江双重供应链物流园区，把海量小订单“聚零为整、集拼成柜”，提供一站式服务。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "义乌市场，商户用上大模型",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192246.html",
+    "tags": [
+      "人工智能",
+      "供应链"
+    ],
+    "type": "新闻动态",
+    "summary": "客户要民族风的饰品，钟敏把设计元素发给AI（人工智能），草图很快生成，打样周期缩短一半。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "七十年苍洱如歌 大理白族自治州成立70周年",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192254.html",
+    "tags": [
+      "产业经济",
+      "产业升级"
+    ],
+    "type": "新闻动态",
+    "summary": "奋进“十五五”，大理白族自治州锚定经济提质、产业升级、绿色低碳、民族团结、区域协同、城乡融合、民生改善、社会治理8个方面，奋力开创新局面。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "一项电力行业具身智能训练领域国际标准立项",
+    "published": "2026-11-20",
+    "source": "经济日报",
+    "byline": "经济日报新闻客户端",
+    "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202611/t20261120_3300608.shtml",
+    "tags": [
+      "人工智能",
+      "智能技术"
+    ],
+    "type": "新闻动态",
+    "summary": "暂未提取",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "一场以“课”为名的展会",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30800.html",
+    "tags": [
+      "智能技术",
+      "人工智能"
+    ],
+    "type": "新闻动态",
+    "summary": "上海工匠学院首次推出的人工智能专题培训现场爆满，上海老年大学和市民夜校的AI课程也成为热门选择。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "【文化评析】深入挖掘节气文化内涵价值",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30786.html",
+    "tags": [
+      "企业创新",
+      "产业经济"
+    ],
+    "type": "观点评论",
+    "summary": "“安仁赶分社”“秋分庆丰收”“壮族霜降节”等地域特色节气活动，已逐步演变为规模化的农文旅融合节庆平台，助力区域产业升级与乡村全面振兴。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "【光明论坛】“算电协同”勾勒出数字与能源融合新图景",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30784.html",
+    "tags": [
+      "算力",
+      "数字经济",
+      "智能经济",
+      "数字技术"
+    ],
+    "type": "观点评论",
+    "summary": "2026年《政府工作报告》提出“实施超大规模智算集群、算电协同等新基建工程”；“十五五”规划纲要进一步部署“推动绿色电力与算力协同布局”。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "“投资于人”的价值意蕴",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30808.html",
+    "tags": [
+      "新质生产力",
+      "企业创新"
+    ],
+    "type": "观点评论",
+    "summary": "在此意义上，“投资于人”意味着通过教育、健康、技能培训等的持续投入，提升劳动者综合素质与创新能力，为发展新质生产力培育动力源。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "2027届全国普通高校毕业生预计1299万人",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30802.html",
+    "tags": [
+      "人工智能",
+      "产业经济"
+    ],
+    "type": "新闻动态",
+    "summary": "抓实服务“着力点”，推动服务提质升级促就业，有力有效开展就业公共服务进校园，深化校地人才供需精准对接行动，创新推进人工智能赋能就业，强化就业资源薄弱校倾斜支持。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "2026年亚太经合组织领导人深圳展望 建设亚太共同体，促进共同繁荣",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192209.html",
+    "tags": [
+      "供应链",
+      "人工智能",
+      "数字技术",
+      "数字经济"
+    ],
+    "type": "新闻动态",
+    "summary": "我们决心与其他贸易伙伴共同努力，确保贸易持续流动，确保关键基础设施继续支撑全球供应链的运转和完整。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "2026年亚太经合组织领导人深圳展望 建设亚太共同体，促进共同繁荣",
+    "published": "2026-11-20",
+    "source": "人民日报",
+    "byline": "人民日报",
+    "url": "https://paper.people.com.cn/rmrb/pc/content/202611/20/content_30192215.html",
+    "tags": [
+      "供应链",
+      "人工智能",
+      "数字技术",
+      "数字经济"
+    ],
+    "type": "新闻动态",
+    "summary": "我们决心与其他贸易伙伴共同努力，确保贸易持续流动，确保关键基础设施继续支撑全球供应链的运转和完整。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "2026年亚太经合组织领导人深圳展望 建设亚太共同体，促进共同繁荣",
+    "published": "2026-11-20",
+    "source": "光明日报",
+    "byline": "光明日报",
+    "url": "https://epaper.gmw.cn/gmrb/html/content/202611/20/content_30798.html",
+    "tags": [
+      "供应链",
+      "人工智能",
+      "数字技术",
+      "数字经济"
+    ],
+    "type": "新闻动态",
+    "summary": "我们决心与其他贸易伙伴共同努力，确保贸易持续流动，确保关键基础设施继续支撑全球供应链的运转和完整。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
     "title": "让更多“好苗子”长成“参天大树”",
     "published": "2026-11-19",
     "source": "光明日报",
@@ -159,6 +1146,55 @@
     ],
     "type": "新闻动态",
     "summary": "赵乐际指出，人大履职要自觉围绕中心、服务大局，树立和践行正确政绩观，把党建成果转化为工作实效，为实现“十五五”目标任务提供法治保障。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "求是网评论员：持续增强人民群众对司法公正的获得感",
+    "published": "2026-11-19",
+    "source": "求是",
+    "byline": "求是网",
+    "url": "https://www.qstheory.cn/20261119/228371bc6434499096c9addc546ce3e2/c.html",
+    "tags": [
+      "人工智能",
+      "数字经济"
+    ],
+    "type": "观点评论",
+    "summary": "积极应对经济社会发展新形势新情况，聚焦人工智能、数字经济、平台用工等新类型纠纷频发的领域，通过出台司法解释、指导性案例、规范性文件等方式，与时俱进完善裁判规则。",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "求是网评论员：共建亚太命运共同体，取得了哪些进展成效",
+    "published": "2026-11-19",
+    "source": "求是",
+    "byline": "求是网",
+    "url": "https://www.qstheory.cn/20261119/4e2a4304cb3244bb8b86c45cf099c84e/c.html",
+    "tags": [
+      "数字经济",
+      "产业经济",
+      "人工智能"
+    ],
+    "type": "观点评论",
+    "summary": "暂未提取",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "求是网评论员：从深圳实践看亚太共同体建设",
+    "published": "2026-11-19",
+    "source": "求是",
+    "byline": "求是网",
+    "url": "https://www.qstheory.cn/20261119/5f9bb7feaac64f459a35c3818d20d8ec/c.html",
+    "tags": [
+      "智能技术",
+      "企业创新"
+    ],
+    "type": "观点评论",
+    "summary": "暂未提取",
     "candidate_channel": "常规待评",
     "evidence_status": "正文已提取",
     "editorial_status": "待复核"
@@ -2702,6 +3738,24 @@
     ],
     "type": "新闻动态",
     "summary": "暂未提取",
+    "candidate_channel": "常规待评",
+    "evidence_status": "正文已提取",
+    "editorial_status": "待复核"
+  },
+  {
+    "title": "高举亚太共同体旗帜 迈向共同繁荣愿景",
+    "published": "2026-11-16",
+    "source": "求是",
+    "byline": "《求是》2026/22",
+    "url": "https://www.qstheory.cn/20261114/f641791928ff41c39606cee2142b76ca/c.html",
+    "tags": [
+      "供应链",
+      "数字经济",
+      "人工智能",
+      "企业创新"
+    ],
+    "type": "观点评论",
+    "summary": "今年5月，我们成功举行亚太经合组织贸易部长会，各方重申支持亚太自贸区进程，维护多边贸易体制，深化贸易数字化、绿色低碳、产业链供应链韧性合作。",
     "candidate_channel": "常规待评",
     "evidence_status": "正文已提取",
     "editorial_status": "待复核"
